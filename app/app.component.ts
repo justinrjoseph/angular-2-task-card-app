@@ -13,4 +13,11 @@
      new Task('Buy a monkey', false),
      new Task('Walk the turtle', false)
    ];
+
+   private currentTask = new Task(null, false);
+
+   addTask() {
+     let task = new Task(this.currentTask.content, this.currentTask.completed);
+     this.tasks.push(task);
+   }
  }
