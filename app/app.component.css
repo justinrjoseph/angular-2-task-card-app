@@ -14,7 +14,8 @@ i {
 	padding-right: .5rem;
 }
 
-button {
+button,
+button:disabled:hover {
 	background: #009688;
 	margin-left: 2rem;
 }
@@ -22,4 +23,15 @@ button {
 button,
 .form-control:focus {
 	border-color: #009688;
+}
+
+button:hover {
+	background: #00796b;
+	border-color: #00796b;
+}
+
+.no-tasks-msg {
+	text-align: center;
+	color: #ccc;
+	margin-top: 3rem;
 }

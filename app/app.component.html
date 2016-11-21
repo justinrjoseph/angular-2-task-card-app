@@ -20,6 +20,10 @@
 	</div>
 	
 	<div class="row">
+		<div *ngIf="tasks.length === 0" class="no-tasks-msg">
+			<h5>The task list is empty.</h5>
+			<p>Please add a task using the form above.</p>
+		</div>
 		<app-card *ngFor="let task of tasks" [task]="task"></app-card>
 	</div>
 </div>
