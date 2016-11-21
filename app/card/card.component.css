@@ -1,5 +1,6 @@
 .card {
 	border-radius: 0;
+	cursor: pointer;
 }
 
 .card,
@@ -15,4 +16,10 @@ i {
 
 .card-footer {
 	text-align: right;
+}
+
+.completed,
+.completed .card-footer {
+	background: #eee;
+	color: #ccc;
 }
