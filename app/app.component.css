@@ -1,0 +1,25 @@
+.container {
+	padding-top: 3rem;
+}
+
+.row {
+	margin-bottom: 1.5rem;
+}
+
+form {
+	text-align: center;
+}
+
+i {
+	padding-right: .5rem;
+}
+
+button {
+	background: #009688;
+	margin-left: 2rem;
+}
+
+button,
+.form-control:focus {
+	border-color: #009688;
+}
