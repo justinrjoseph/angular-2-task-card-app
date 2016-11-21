@@ -9,9 +9,17 @@
 	border: none;
 }
 
-i {
-	color: #cc0000;
+i.fa-times,
+i.fa-check {
 	padding-right: .5rem;
+}
+
+i.fa-times {
+	color: #cc0000;
+}
+
+i.fa-check {
+	color: darkgreen;
 }
 
 .card-footer {
