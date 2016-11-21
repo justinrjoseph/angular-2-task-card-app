@@ -8,8 +8,8 @@
     templateUrl: 'app.component.html'
  })
  export class AppComponent {
-   task1: Task = {
-     content: 'Learn to code',
-     completed: false
-   };
+   private tasks : Task[] = [
+     new Task('Buy a monkey', false),
+     new Task('Walk the turtle', false)
+   ];
  }
